@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<script src="js/jquery-2.2.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/images-uploads.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/images-uploads.css"/>
+	</head>
+
+	<body>
+		<div class="picF"  status="true" date-img-id="labelPic" date-file-id="file_upload" date-name="file" date-num="5" date-img-src="images/72px1(1).png">
+			
+			<div class="picBox">
+				<label for="file"><img src="images/72px1(1).png"  id="labelPic1" class="picpic">
+					<img src="images/xx.png" style="display: none;" class="close_img" onclick="clearImg(this)"/>
+				 </label>
+				<input type="file" name="file1" id="file_upload1"  style="display:none;"  onchange="showImg(this)">
+				<input type="hidden" id="hidden">
+			</div>
+			
+			
+		</div>
+
+	
+	</body>
+
+</html>
